@@ -22,6 +22,8 @@ Perpare a vite react typescript project supporting testing with jest and testing
 <ul>
 <li>npm i -D @testing-library/react @testing-library/user-event</li>
 <li>npm i -D @testing-library/jest-dom</li>
+<li>add testEnvironment: "jsdom" to export default inside jest.config.ts</li>
+
 </ul>
 
 <h2>Invoking the tests</h2>
