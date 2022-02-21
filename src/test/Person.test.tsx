@@ -6,5 +6,9 @@ import Person from "../components/Person";
 test("Renders Person component correctly", async () => {
   const { getByText } = render(<Person firstName='Nathan' lastName='Krasney'/>);
 
-  expect(getByText('First Name : Nathan , Last Name : Krasney')).toBeInTheDocument()
+  expect(document.getElementsByTagName('p').length).toBe(1); // we can access the document object
+  
+  const htmlElement = getByText('First Name : Nathan , Last Name : Krasney')
+  
+  expect(htmlElement).toBeInTheDocument()
 });
