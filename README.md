@@ -9,7 +9,7 @@ Perpare a vite react typescript project supporting testing with jest and testing
 <li>create a vite react typescript project using npm init vite@latest and choosing react and ts</li>
 <li>npm i -D jest @types/jest</li>
 <li>add to scripts in package.json  <p>"test" : "jest"</p></li>  
-<li>create directory test under src (not mandatory but common practice) and create there a test file &lt;file_name&gt;.test.ts e.g Person.test.ts</li>
+<li>create directory test under src (not mandatory but common practice) and create there a test file &lt;file_name&gt;.test.tsx e.g Person.test.tsx for component and file_name&gt;.test.ts for non component</li>
 <li>npm i -D ts-jest ts-node</li>
 <li>create jest.config.ts file and add <p>export default {
   transform: {
