@@ -1,9 +1,10 @@
 <h2>Motivation</h2>
-Perpare a vite react ts project for testing with jest and testing library
+Perpare a vite react typescript project for testing with jest and testing library
 
 
 <h2>Installation</h2>
 <ul>
+<li>create a vite react typescript project using npm init vite@latest and choosing react and ts</li>
 <li>npm i -D jest @types/jest</li>
 <li>add to scripts in package.json  <p>"test" : "jest"</p></li>  
 <li>create directory test under src and create there a test file e.g Person.test.ts</li>
