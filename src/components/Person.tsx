@@ -1,4 +1,5 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
+import './Person.css'
 
 interface Props{
     firstName : string;
@@ -6,7 +7,7 @@ interface Props{
 }
 const Person : FC<Props>= ({firstName ,lastName }) => {
     return (
-        <p>First Name : {firstName} , Last Name : {lastName}</p>
+        <p className='Person'>First Name : {firstName} , Last Name : {lastName}</p>
     );
 };
 
