@@ -38,7 +38,7 @@ npm i -D identity-obj-proxy</p> </li>
 <li>Jest is a javascript framework for testing. It will ignore CSS files. Thus using jest, you can not do visual tests, e.g., verify that a button color is red if imported from a CSS file. Jest works fine with inline styling, i.e., css-in-js.
 <p>What is your options if you have css files ? Use visual test tools like cypress check e.g.  <a href='https://www.youtube.com/watch?v=gUFdU5fQs4o&t=1897s'>this 31:45</a></p>
 </li>
-<ul>
+</ul>
 
 <h2>Invoking the tests</h2>
 npm test
