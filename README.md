@@ -4,7 +4,6 @@ Prepare a vite react typescript project supporting testing with jest and testing
 <h2>Installation</h2>
 <p>Remark: I follow here the steps in the reference paper (see credits). <p>Part 1 relates to pure typescript jest</p><p> Part 2 relate to the testing library in general and to react in particular</p></p>
 
-
 <h4>Part 1</h4>
 <ul>
 <li>create a vite react typescript project using npm init vite@latest and choosing react and ts</li>
@@ -24,6 +23,12 @@ Prepare a vite react typescript project supporting testing with jest and testing
   }</p>
   <p>and by install :
 npm i -D identity-obj-proxy</p> </li>
+<li>as of jest 28
+
+```
+npm i -D jest-environment-jsdom
+```
+</li>
 </ul>
 
 <h4>Part 2</h4>
@@ -46,4 +51,6 @@ npm test
 <h2>credits</h2>
 <a href='https://codingwithmanny.medium.com/quick-jest-setup-with-vitejs-react-typescript-82f325e4323f'>Quick Jest Setup With ViteJS, React, & TypeScript</a>
 
+<h2>Open issues</h2>
+toBeInTheDocument has error (so remarked) after upgrading jest 
 
